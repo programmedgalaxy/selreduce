@@ -2,10 +2,10 @@ selreduce is an application implementing OpenCV 2.4.13 to blur low-contrast regi
 of images for noise reduction. It includes features for scaling and
 configuration of execution parameters.
 
-It was built with Miscrosoft Visual Studio 2015 (toolset version v140). The project
+It was built with Microsoft Visual Studio 2015 (toolset version v140). The project
 may have to be reconfigured if you want to build under a different environment.
 
-The project properties reference an evironment variable "$(OpenCV2Path)" which points
+The project properties reference an environment variable "$(OpenCV2Path)" which points
 to the directory containing the "opencv" folder from a fresh extract of the OpenCV
 2.4.13 package. Modify your environment variables or the project property page
 appropriately to allow Visual Studio to find the necessary files.
